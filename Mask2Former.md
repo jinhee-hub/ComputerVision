@@ -34,10 +34,9 @@ __Masked Attention__
 
 Standard Cross-Attention
 
-![image](https://github.com/user-attachments/assets/e1fc2b98-acf5-4be3-a804-060eb2f48a2b)
+![image](https://github.com/user-attachments/assets/04779a19-16f0-49d4-9f65-dd1f533f5d7c)
+
 
 Masked Attenton
-
-![image](https://github.com/user-attachments/assets/7bf68513-40ab-4dce-9fd4-d0e4d95d2652)
 
 
