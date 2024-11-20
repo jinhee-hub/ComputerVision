@@ -27,16 +27,16 @@ Upsamples low-resolution features to produce high-resolution pixel-level represe
 Transformer decoder combines queries and image features through a cross-attention mechanism and decodes these combined features to produce task-specific outputs, such as object classes and masks. 
 Mask2Former's Transformer decoder includes a masked attention 
 
-Masked Attention
+####Masked Attention
 - Extracts localized features using Cross-Attention for each query, but restricts its operation to the predicted mask regions.
 - Masked Attention applies cross-attention only on the label mask region, and ensures that the model's attention is concentrated on the most relevant parts of the input.
 - Improving both efficiency and accuracy.  
 
-Standard Cross-Attention
+__Standard Cross-Attention__
 
 ![image](https://github.com/user-attachments/assets/e1fc2b98-acf5-4be3-a804-060eb2f48a2b)
 
-Masked Attenton
+__Masked Attenton__
 
 ![image](https://github.com/user-attachments/assets/7bf68513-40ab-4dce-9fd4-d0e4d95d2652)
 
