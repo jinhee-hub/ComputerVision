@@ -11,7 +11,9 @@ Mask2Former is an architecture that can be used in any image segmentation task.
 
 Mask2Former is easier to train and more efficient than other universal image segmentation architectures.
 
-** Key Components :  Masked Attention - Extracts localized features using Cross-Attention, but restricts its operation to the predicted mask regions
+** Key Components **
+
+Masked Attention - Extracts localized features using Cross-Attention, but restricts its operation to the predicted mask regions
 
 ## Architecture
 
