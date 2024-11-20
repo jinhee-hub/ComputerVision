@@ -17,6 +17,7 @@ Mask2Former is easier to train and more efficient than other universal image seg
 Masked Attention - Extracts localized features using Cross-Attention, but restricts its operation to the predicted mask regions
 
 ## Architecture
+![image](https://github.com/user-attachments/assets/9d55509c-42fc-4e2e-bf76-5b7b652b9558)
 
 Mask2Former consists of a backbone feature extractor, a pixel decoder, and a Transformer decoder.
 
