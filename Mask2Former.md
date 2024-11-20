@@ -4,6 +4,7 @@ Masked attention Mask Transformer (Mask2Former)
 
 ## Aims & Contribution
 
+![image](https://github.com/user-attachments/assets/31c4ebb0-828a-4533-8791-316b34f975ce)
 Mask2Former is an architecture that can be used in any image segmentation task. 
 - Semantic Segmentation   -   [Assigning each pixel of an image to one of multiple classes]
 - Instance Segmentation   -  [Segmenting each object instance in an image, and assigning each pixel of an instance to its instance class ID]
@@ -17,6 +18,5 @@ Masked Attention - Extracts localized features using Cross-Attention, but restri
 
 ## Architecture
 
-
-
 Mask2Former consists of a backbone feature extractor, a pixel decoder, and a Transformer decoder.
+
