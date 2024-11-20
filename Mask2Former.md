@@ -34,8 +34,7 @@ __Masked Attention__
 
 ![image](https://github.com/user-attachments/assets/72f835e6-77af-4f25-84af-869eeb86970c)
 
-Attention mask $M_{l-1}(x,y)$ takes 0 if ... otherwise \infty   
-
+The attention mask $M_{l-1}(x,y)$ is set to 0 if the previous decoder layer identifies the area as relevant, otherwise it is set to -∞.    
 
 
 
