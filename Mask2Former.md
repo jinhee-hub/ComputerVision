@@ -12,12 +12,20 @@ Mask2Former is an architecture that can be used in any image segmentation task.
 
 Mask2Former is easier to train and more efficient than other universal image segmentation architectures.
 
-** Key Components **
-
-Masked Attention - Extracts localized features using Cross-Attention, but restricts its operation to the predicted mask regions
-
 ## Architecture
 ![image](https://github.com/user-attachments/assets/9d55509c-42fc-4e2e-bf76-5b7b652b9558)
 
 Mask2Former consists of a backbone feature extractor, a pixel decoder, and a Transformer decoder.
+
+### backbone 
+Extracts image features by encoding the original image into low-resolution feature representations.
+
+### pixel decoder
+Upsamples low-resolution features to produce high-resolution pixel-level representations. 
+
+### Transformer decoder
+Transformer decoder combines queries and image features through a cross-attention mechanism and decodes these combined features to produce task-specific outputs, such as object classes and masks. 
+Mask2Former's Transformer decoder includes a masked attention 
+
+Masked Attention - Extracts localized features using Cross-Attention for each query, but restricts its operation to the predicted mask regions.
 
