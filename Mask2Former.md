@@ -32,6 +32,10 @@ Masked Attention
 - Masked Attention applies cross-attention only on the label mask region, and ensures that the model's attention is concentrated on the most relevant parts of the input.
 - Improving both efficiency and accuracy.  
 
-![image](https://github.com/user-attachments/assets/e1fc2b98-acf5-4be3-a804-060eb2f48a2b) -> ![image](https://github.com/user-attachments/assets/7bf68513-40ab-4dce-9fd4-d0e4d95d2652)
+Standard Cross-Attention
+![image](https://github.com/user-attachments/assets/e1fc2b98-acf5-4be3-a804-060eb2f48a2b)
+
+Masked Attenton
+![image](https://github.com/user-attachments/assets/7bf68513-40ab-4dce-9fd4-d0e4d95d2652)
 
 
