@@ -8,3 +8,5 @@ This model decoupled VAR model into two groups.
 - ### Inter-scale modeling
 
   Inter-scale modeling progressively models cross-scale relationships from coarse to fine details.
+
+-> More coputationally efficient than VAR
