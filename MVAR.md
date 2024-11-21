@@ -1,5 +1,9 @@
 # MVAR
 
+## Aims
+
+MVAR optimizes VAR's computational structure. 
+
 This model decoupled VAR model into two groups.
 - ### Intra-scale modeling
 
