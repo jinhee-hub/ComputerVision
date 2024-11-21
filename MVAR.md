@@ -3,7 +3,7 @@
 This model decoupled VAR model into two groups.
 - ### Intra-scale modeling
 
-  Intra-scale modeling captures local spatial dependencies within each scale.
+  Captures local spatial dependencies within each scale.
   
 - ### Inter-scale modeling
 
